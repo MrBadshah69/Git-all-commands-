@@ -1,0 +1,23 @@
+        <!---(GIT COMMANDS LIST)--->
+
+    <!---|Configuration|--->
+<!--- ^Config User^ --->
+-$ git config --global user.name "MrBadshah69"
+<!--- ^Config gmail^ --->
+-$ git config --global user.gmail "mrbadshahbusiness@gmail.com"
+<!--- ^Config Pass^ --->
+-$ git config --global user.pass "chal b_s_d_k"
+<!--- ^Config List^ --->
+-$ git config --list
+
+    <!--- |Status| --->
+<!---   git status 4 type 
+        Untracked =>File New
+        Modified =>Change
+        Staged =>ready to (commit and add) 
+        Unmodified => uncommited    --->
+<!---Check status--->
+-$ git status
+<!---Check status (Shorthand)--->
+-$ git status -s
+
