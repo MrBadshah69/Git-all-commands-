@@ -44,4 +44,7 @@ $ git commit -m "message_here"
 <!---commit and adding Files But Use second time (Shorthand)--->
 $ git commit -a -m "message_here"
 
-    <!------>
+    <!---|Remote|--->
+
+<!---Add to remote repo--->
+$ git remote and origin master <repo_link_here>
