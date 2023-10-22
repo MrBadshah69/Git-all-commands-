@@ -1,23 +1,47 @@
         <!---(GIT COMMANDS LIST)--->
 
     <!---|Configuration|--->
+
 <!--- ^Config User^ --->
--$ git config --global user.name "MrBadshah69"
+$ git config --global user.name "MrBadshah69"
 <!--- ^Config gmail^ --->
--$ git config --global user.gmail "mrbadshahbusiness@gmail.com"
+$ git config --global user.gmail "mrbadshahbusiness@gmail.com"
 <!--- ^Config Pass^ --->
--$ git config --global user.pass "chal b_s_d_k"
+$ git config --global user.pass "chal b_s_d_k"
 <!--- ^Config List^ --->
--$ git config --list
+$ git config --list
 
     <!--- |Status| --->
+
 <!---   git status 4 type 
         Untracked =>File New
         Modified =>Change
         Staged =>ready to (commit and add) 
         Unmodified => uncommited    --->
 <!---Check status--->
--$ git status
+$ git status
 <!---Check status (Shorthand)--->
--$ git status -s
+$ git status -s
 
+    <!---|initializetion|--->
+
+$ git init
+
+    <!---|Files Adding|-->
+
+<!---Add Single File--->
+$ git add "File Name"
+<!---Add all files--->
+$ git add .
+$ git add -a
+
+    <!---|Files Commit|--->
+
+<!---Commit by vm without any Branch Name--->
+$ git commit
+<!---commit (Shorthand)--->
+$ git commit -m "message_here"
+<!---commit and adding Files But Use second time (Shorthand)--->
+$ git commit -a -m "message_here"
+
+    <!------>
