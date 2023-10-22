@@ -48,3 +48,24 @@ $ git commit -a -m "message_here"
 
 <!---Add to remote repo--->
 $ git remote and origin master <repo_link_here>
+<!---Check to remote repo--->
+$ git remote -v
+<!---To changing Url For a remote repo --->
+git set-url origin "repo_link_link"
+
+    <!---|Push|--->
+<!---For push in the Branch--->
+$ git push origin "BranchNameHere"
+<!---Push Shorthand Use for first time only--->
+$ git push -u origin "BranchNameHere"
+<!---For Always Use --->
+$ git push
+
+    <!---|Clone|---> 
+<!---Download and clone--->
+$ git clone "Repo_link_here"
+<!---Specific Branch Download and clone--->
+$ git clone -b "br" "repo_link_here"
+
+    <!---|Checkout Files|--->
+    <!------>
