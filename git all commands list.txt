@@ -2,13 +2,13 @@
 
     <!---|Configuration|--->
 
-<!--- ^Config User^ --->
+<!--- Config User --->
 $ git config --global user.name "MrBadshah69"
-<!--- ^Config gmail^ --->
+<!--- Config gmail --->
 $ git config --global user.gmail "mrbadshahbusiness@gmail.com"
-<!--- ^Config Pass^ --->
+<!--- Config Pass --->
 $ git config --global user.pass "chal b_s_d_k"
-<!--- ^Config List^ --->
+<!--- Config List --->
 $ git config --list
 
     <!--- |Status| --->
@@ -68,4 +68,39 @@ $ git clone "Repo_link_here"
 $ git clone -b "br" "repo_link_here"
 
     <!---|Checkout Files|--->
-    <!------>
+<!---Recover / Discard for a single file form the last commit --->
+$ git checkout "HereFileName"
+<!---Recover / Discard for a single file form the last commit --->
+$ git checkout -file
+
+    <!---|Log|--->
+<!---For view all commit --->
+$ git log 
+<!---For view all Specific Log --->
+$ git log -p -1
+
+    <!---diff--->
+<!---to compare the working dir to the stage area--->
+$ git diff
+<!---to compare the stage area to the working dir --->
+$ git diff --staged
+
+    <!---|remove files|--->
+<!---to compare the working dir to the stage area--->
+$ git rm
+<!---to compare the stage area to the working dir --->
+$ git rm --cached "FileNameHere"
+
+    <!---|Branch|--->
+<!---Check created branches--->
+$ git branch
+<!---rename branch name (M is only capital)--->
+$ git branch -M  "BranchName"
+<!---Navigate to a branch --->
+$ git checkout "BranchNameHere"
+<!--- Create a new branch --->
+$ git checkout -b "NewBranchNameHere"
+<!--- use for Delete branch --->
+$ git checkout -d "Branch Name"
+
+    <!---||--->
