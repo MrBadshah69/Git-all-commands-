@@ -103,4 +103,63 @@ $ git checkout -b "NewBranchNameHere"
 <!--- use for Delete branch --->
 $ git checkout -d "Branch Name"
 
-    <!---||--->
+    <!---|Undo Changes|--->
+<!--- reset form staged --->
+$ git reset "filenamehere"
+<!--- reset all form the staged --->
+$ git reset
+<!--- reset the last commit --->
+$ git reset HEAD~1
+<!--- reset a Specific commit --->
+$ git reset "commithash"
+<!--- reset a Specific commit  with 
+      stage and change in the 
+      editor also--->
+$ git reset --hard "commithash"
+
+    <!---|Git merge|--->
+<!---
+    1st way by github repo
+    cerate pull request for the base branch merge
+    then pull into  the local repo
+--->
+<!---pull command--->
+$ git pull origin "branchnamehere"
+<!--- 2nd way by merge cmd --->
+$ git merge "BranchNameHere"
+
+<!---|GIT COMMANDS END|--->
+
+
+
+
+
+
+
+
+
+
+<!---|GIT EXPENSIVE COMMANDS START|--->
+
+    ❤❤❤
+    ✨✨
+      👌
+<!---|Gift Command|--->
+git config --global alias.YourName "add ."
+
+
+
+
+
+<!---|GIT EXPENSIVE USEFULL COMMANDS |--->
+<!--- View the complete URL of the dir --->
+$ pwd
+<!---Use For Create Any File --->
+touch "FileNameHere"
+<!---View to All File and Folder --->
+$ ls
+<!---View to All File and Folder  with additional Detail--->
+ls -lart
+
+D        O        N       E
+🤷‍♀️🤷‍♀️🤷‍♀️🤷‍♀️🤷‍♀️🤷‍♀️🤷‍♀️😜😜😜😜😜😜✔✔✔✔✔👀
